@@ -24,5 +24,9 @@ public class GetRequest {
 
 
         Assert.assertEquals(200,response.getStatusCode());
+
+
+        response.then().assertThat().statusCode(200).contentType("application/json; charset=utf-8");
+
     }
 }
