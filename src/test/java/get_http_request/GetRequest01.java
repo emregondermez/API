@@ -7,7 +7,7 @@ import org.junit.Test;
 
 import static io.restassured.RestAssured.given;
 
-public class GetRequest {
+public class GetRequest01 {
 
     @Test
     public void test01() {
@@ -21,6 +21,7 @@ public class GetRequest {
         System.out.println("Status Code : "+response.getStatusCode());
         System.out.println("Content Type : "+response.contentType());
         System.out.println("Time : "+response.time());
+
 
 
         Assert.assertEquals(200,response.getStatusCode());
