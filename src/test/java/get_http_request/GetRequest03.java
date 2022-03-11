@@ -23,9 +23,9 @@ public class GetRequest03 {
         response
                 .then()
                 .assertThat()
-                .body("firstname", Matchers.equalTo("Susan"),
-                "lastname",Matchers.equalTo("Smith")
-                        ,"bookingdates.checkin",Matchers.equalTo("2019-09-28") );
+                .body("firstname", Matchers.equalTo("Eric"),
+                "lastname",Matchers.equalTo("Brown")
+                        ,"bookingdates.checkin",Matchers.equalTo("2017-05-01") );
 
     }
 }
