@@ -12,7 +12,7 @@ public class GetRequest01 {
     @Test
     public void test01() {
 
-        String url= "https://restful-booker.herokuapp.com/booking";
+        String url= "";
 
         Response response= given().when().get(url);
 
