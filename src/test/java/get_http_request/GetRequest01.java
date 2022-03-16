@@ -16,7 +16,7 @@ public class GetRequest01 {
 
         Response response= given().when().get(url);
 
-       response.prettyPrint();
+      // response.prettyPrint();
 
         System.out.println("Status Code : "+response.getStatusCode());
         System.out.println("Content Type : "+response.contentType());
